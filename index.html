@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/css.gg/icons/all.css' rel='stylesheet'>
+</head>
+<body>
+    <nav class="main-nav container">
+        <p>A.</p>
+        <ul>
+            <li>
+                <a href="#main-cover">Sobre mí</a>
+            </li>
+            <li>
+                <a href="#projects">Experiencia</a>
+            </li>
+            <li>
+                <a href="#contacto">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section class="main-cover" id="main-cover">
+            <div class="container main-header">
+            <header>
+                <p class="text-s">
+                    <span class="green-dot"></span>
+                    Disponible como Freelancer
+                </p>
+                <p class="text-xl">
+                    Hola, me llamo Axel Westman, y soy Front End Developer!
+                </p>
+                <p class="text-md">Estudié la "Tecnicatura en Informática aplicada al Diseño Multimedial y de Sitios Web" de la UNL (Universidad Nacional del Litoral, Argentina), y realice cursos de Programación Front End en <a href="https://www.freecodecamp.org" target="_blank" class="bio-link1">FreeCodeCamp</a> y <a href="https://codigofacilito.com" target="_blank" class="bio-link2">Código Facilito</a>.</p>
+            </header>
+            <img src="images/foto cv.jpg" alt="Foto mia" srcset="">
+        </div>
+        </section>
+        <section class="projects" id="projects">
+            <a href="https://axelwestman.github.io/Pizza-Ranking-/" target="_blank"><img src="images/projects/pizza.png" alt="Captura de pantalla del proyecyo ranking de pizza"></a>
+            <a href="https://axelwestman.github.io/QR-code-component---Front-End-Mentor/" target="_blank"><img src="images/projects/qr.png" alt="Captura de pantalla del proyecyo qr de Front End Mentor"></a>
+            <a href="https://axelwestman.github.io/Room-Page/" target="blank"><img src="images/projects/room.png" alt="Captura de pantalla del proyecto Room de Front End Mentor"></a>
+            <a href="https://axelwestman.github.io/Form/" target="_blank"><img src="images/projects/form.png" alt="Captura de pantalla del proyecto Form"></a>
+            <a href="https://axelwestman.github.io/CSS-Flexbox-Photo-Gallery/" target="_blank"><img src="images/projects/galeria.png" alt="Captura de pantalla del proyecto Galeria con flexbox"></a>
+            <a href="https://axelwestman.github.io/City-Skylines-responsive-/" target="_blank"><img src="images/projects/city.png" alt="Captura de pantalla del proyecto City Skylines responsive"></a>
+        </section>
+        <section class="benefits-section">
+            <div class="container">
+                <header>
+                    <h2>Beneficios</h2>
+                    <p class="text-secondary container-s">
+                        Al contratarme para crear la página web que busca, contará con distintos beneficios para una mejor experiencia.
+                    </p>
+                </header>
+                <div class="benefits">
+                    <div>
+                        <div class="icon">
+                            <i class="gg-code-slash"></i>
+                        </div>
+                        <p>Código Limpio</p>
+                        <p class="text-secondary">Los archivos estarán bien ordenados y el código que recibirá tendrá anotaciones para futuras revisiones o mantenimiento.</p>
+                    </div>
+                    <div>
+                        <div class="icon">
+                            <i class="gg-smartphone"></i>
+                        </div>
+                        <p>Seguimiento del proceso</p>
+                        <p class="text-secondary">Usted tendrá acceso a mi contacto constantemente y podrá ir consultando el proceso de la construcción de la página.</p>
+                    </div>
+                    <div>
+                        <div class="icon">
+                            <i class="gg-user"></i>
+                        </div>
+                        <p>Consultas</p>
+                        <p class="text-secondary">Se podrán realizar modificaciones en el proyecto según el cliente lo desee.</p>
+                    </div>
+                    <div>
+                        <div class="icon">
+                            <i class="gg-check"></i>
+                        </div>
+                        <p>Información por adelantada</p>
+                        <p class="text-secondary">Presupuesto y tiempo estimativo del proyecto a desarrollar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--<section class="quote">
+            <p class="main-quote-text">Currently, Ford sells six sedans and coupes in North America with the Fiesta, Focus, Fusion, C-Max, Mustang and Taurus. This lineup hits.</p>
+            <img src="images/cody.jpeg" alt="">
+            <p class="text-bold">Emily Jorgensen</p>
+            <p class="text-secondary">Author at Panoply Store</p>
+        </section>-->
+        <section class="contact-section" id="contacto">
+            <div class="contact container">
+            <form action="https://formspree.io/f/xeqwpjgw" method="POST" class="card">
+                <label class="input-field">
+                    Email
+                    <input required type="email" name="email" id="email">
+                </label>
+                <textarea placeholder="Mensaje" class="input-field" required minlength="8" maxlength="300" name="message" id="message" cols="30" rows="5"></textarea>
+                <button class="btn-main">Enviar</button>
+            </form>
+            <div class="address">
+                <p class="text-accent">Hablemos</p>
+                <p>
+                   Puede contactarme mediante el formulario a la izquierda, contándome brevemente su idea y a la brevedad me pondré en contacto con usted!
+                </p>
+                <!--<p>
+                    1995 Matthews Street
+                </p>
+                <p>
+                    Bloomington, IL
+                </p>-->
+                <div class="social-media-links">
+                    <div class="icon2">
+                        <a href="#"><i class="gg-facebook"></i></a>
+                    </div>
+                    <div class="icon2">
+                        <a href="#"><i class="gg-instagram"></i></a>
+                    </div>
+                    <div class="icon2">
+                        <a href="#"><i class="gg-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+</body>
+</html>
